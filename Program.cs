@@ -88,13 +88,16 @@ namespace SharesCalculator
 
         private static void Options()
         {
-            Console.WriteLine("0. Exit");
-            Console.WriteLine("1. Use Sell Buy Fee as one");
-            Console.WriteLine("2. Buy fee set");
-            Console.WriteLine("3. Sell fee set");
+
 
             while (true)
             {
+
+                Console.Clear();
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. Use Sell Buy Fee as one");
+                Console.WriteLine("2. Buy fee set");
+                Console.WriteLine("3. Sell fee set");
                 switch (Console.ReadKey().KeyChar)
                 {
                     case '0':
